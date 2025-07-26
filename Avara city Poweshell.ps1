@@ -1,7 +1,7 @@
 $inputFile1 = [System.IO.Path]::Combine($env:APPDATA, 'Microsoft\Windows\PowerShell\PSReadLine\ConsoleHost_history.txt')
 
 
-$host.ui.RawUI.WindowTitle = "CHH Viewer - Made by flomkk"
+$host.ui.RawUI.WindowTitle = "CHH Viewer - Made by Pk00 & Sedin"
 Clear-Host
 Write-Host ""
 Write-Host -ForegroundColor Magenta @"
@@ -14,7 +14,7 @@ Write-Host -ForegroundColor Magenta @"
 "@
 
 
-Write-Host -ForegroundColor White "        Made by Pk00 - " -NoNewLine
+Write-Host -ForegroundColor White "        Made by Pk00 & Sedin - " -NoNewLine
 Write-Host -ForegroundColor White "discord.gg/avara"
 Write-Host ""
 
