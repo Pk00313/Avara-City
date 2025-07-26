@@ -41,14 +41,3 @@ try {
     Write-Host -ForegroundColor Red "Fehler beim Lesen der ConsoleHost-Datei: $_"
 }
 
-try {
-    $data2 = Get-Content -Path $inputFile2 -ErrorAction Stop
-    if ($data2) {
-        Write-Host "`n[ISE Host History] $($data2.Count) Einträge geladen." -ForegroundColor Cyan
-        $data2 | Out-GridView -Title "ISE Host History - $env:USERNAME"
-    } else {
-        Write-Host "Keine Daten in ISE Host History gefunden." -ForegroundColor Yellow
-    }
-} catch {
-    Write-Host -ForegroundColor Red "Fehler beim Lesen der ISE-Datei: $_"
-}
