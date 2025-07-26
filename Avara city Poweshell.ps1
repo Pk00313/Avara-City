@@ -10,7 +10,8 @@ Write-Host -ForegroundColor Magenta @"
  /  /_\  \  \/ /\__  \\_  __ \__  \   /    \  \/|  \   __<   |  |
 /    |    \   /  / __ \|  | \// __ \_ \     \___|  ||  |  \___  |
 \____|__  /\_/  (____  /__|  (____  /  \______  /__||__|  / ____|
-        \/           \/           \/          \/          \/      "@
+        \/           \/           \/          \/          \/      
+"@
 
 
 Write-Host -ForegroundColor White "        Made by Pk00 - " -NoNewLine
